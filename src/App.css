@@ -1,0 +1,72 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(skyblue, white);
+}
+
+div {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: skyblue;
+}
+
+input {
+  padding: 0.5rem;
+  width: 70%;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  color: black;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+li button {
+  background-color: skyblue;
+  padding: 0.3rem 0.7rem;
+}
+
+li button:hover {
+  background-color: #b02a37;
+}
